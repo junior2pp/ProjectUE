@@ -1,6 +1,6 @@
 {
-	"ImportPath": "github.com/RobertoSuarez/kare",
-	"GoVersion": "go1.8",
+	"ImportPath": "github.com/junior2pp/ProjectUE",
+	"GoVersion": "go1.8.3",
 	"GodepVersion": "v79",
 	"Packages": [
 		"./..."
