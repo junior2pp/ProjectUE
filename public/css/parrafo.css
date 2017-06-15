@@ -1,0 +1,16 @@
+.portada {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.portada img {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+}
+
+.contenido p {
+  font-size: 1.1em;
+}

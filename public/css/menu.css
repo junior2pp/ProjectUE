@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+
+  overflow: auto;
+  width: 250px;
+  height: 100%;
+  background-color: #1b1b1b;
+}
+
+nav ul li a {
+  display: block;
+  padding: 15px 16px;
+  color: #ffffff;
+  font-size: 1em;
+}
+
+nav ul li h1 {
+  margin: 0px;
+  padding: 20px 10px;
+  text-align: center;
+  font-size: 2em;
+  color: #44e963;
+}
+
+nav ul li a span {
+  float: right;
+}
+
+nav ul li a.activo {
+  background-color: #44e963;
+  color: #161616;
+  transition: 0.60s;
+  border-left: 8px solid #000000;
+}
+
+nav ul li a.abajo span {
+  transition: 0.60s;
+
+}
+
+nav ul li a.arriba span {
+  transition: 0.60s;
+  transform: rotate(-180deg);
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+}
+nav ul li a:enabled {
+  text-decoration: none;
+}
+
+/*efectos al pasar el mouse*/
+nav ul li a:hover:not(.activo) {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #050505;
+}
+/*submenu*/
+nav ul ul {
+  position: relative;
+  display: none;
+}
+
+nav ul li:hover ul {
+  display: none;
+}
+
+nav ul ul li a {
+  padding-left: 30px;
+  background-color: #3c3c3c;
+}
+
+
+.menu-bar {
+  padding: 10px;
+  font-size: 2.5em;
+  position: absolute;
+  z-index: 5;
+  cursor: pointer;
+}
+
+.page {
+  display: flex;
+  flex-direction: row;
+}
+.menu {
+  position: fixed;
+  width: 250px;
+  height: 100%;
+}
+
+.pagina {
+  margin-left: 250px;
+}
+
+.mCSB_inside > .mCSB_container {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+
+
+/*tablet o smartphone*/
+@media (max-width: 1199px) {
+  .menu {
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    z-index: 1;
+  }
+
+  .pagina {
+    position: absolute;
+    width: 100%;
+    margin-left: 0px;
+    background-color: #ffffff;
+    z-index: 2;
+  }
+
+  .abrir {
+      margin-left: 250px;
+      transition: 0.60s;
+  }
+  .cerrar {
+      margin-left: 0px;
+      transition: 0.60s;
+  }
+  .menu-bar span {
+    color: #44e963;
+  }
+
+}

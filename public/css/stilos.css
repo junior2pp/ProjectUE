@@ -1,0 +1,53 @@
+/*INICIO DE CAJAS Y LISTAS ORDENADAS*/
+
+/*Cajas*/
+
+
+.cajas {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.cajas a {
+    text-decoration: none;
+}
+
+.caja {
+  padding: 20px;
+  margin: 20px;
+  height: 300px;
+  width: 300px;
+  background-color: #ffffff;
+  color: #000000;
+  -webkit-transition: padding 1s;
+  transition: padding 1s;
+  box-shadow: 8px 6px 13px 2px #7e7e7e;
+}
+
+.caja:hover {
+    padding: 40px;
+}
+
+.caja h1 {
+  font-size: 1.3em;
+  padding: 20px;
+  text-align: center;
+}
+
+.caja p {
+  font-size: 1em;
+  padding: 5px;
+}
+
+.caja img {
+  width: 50%;
+
+
+}
+/*Cajas*/
+
+/*FIN DE CAJAS Y LISTAS ORDENADAS*/

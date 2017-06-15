@@ -1,0 +1,11 @@
+.baner {
+  width: 100%;
+}
+.titulo{
+  font-family: 'Poiret One', cursive;
+  color: rgb(99, 94, 193);
+}
+p{
+  font-size: 20px;
+  font-family: 'Marmelad', sans-serif;
+}
