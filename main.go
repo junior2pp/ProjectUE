@@ -188,7 +188,7 @@ func parrafo(w http.ResponseWriter, r *http.Request)  {
 	if err != nil{
 		log.Println(err)
 	}
-	t.Execute(w, nil)
+	err = t.Execute(w, nil)
 	if err != nil{
 		log.Println(err)
 	}
@@ -199,7 +199,7 @@ func golang(w http.ResponseWriter, r *http.Request)  {
 	if err != nil{
 		log.Println(err)
 	}
-	t.Execute(w, nil)
+	err = t.Execute(w, nil)
 	if err != nil{
 		log.Println(err)
 	}
@@ -210,7 +210,7 @@ func medioambiete(w http.ResponseWriter, r *http.Request)  {
 	if err != nil{
 		log.Println(err)
 	}
-	t.Execute(w, nil)
+	err = t.Execute(w, nil)
 	if err != nil{
 		log.Println(err)
 	}
@@ -220,7 +220,7 @@ func introduccion(w http.ResponseWriter, r *http.Request)  {
 	if err != nil{
 		log.Println(err)
 	}
-	t.Execute(w, nil)
+	err = t.Execute(w, nil)
 	if err != nil{
 		log.Println(err)
 	}
@@ -230,7 +230,7 @@ func objetivos(w http.ResponseWriter, r *http.Request)  {
 	if err != nil{
 		log.Println(err)
 	}
-	t.Execute(w, nil)
+	err = t.Execute(w, nil)
 	if err != nil{
 		log.Println(err)
 	}
@@ -240,7 +240,7 @@ func metodologia(w http.ResponseWriter, r *http.Request)  {
 	if err != nil{
 		log.Println(err)
 	}
-	t.Execute(w, nil)
+	err = t.Execute(w, nil)
 	if err != nil{
 		log.Println(err)
 	}
@@ -250,7 +250,7 @@ func resultados(w http.ResponseWriter, r *http.Request)  {
 	if err != nil{
 		log.Println(err)
 	}
-	t.Execute(w, nil)
+	err = t.Execute(w, nil)
 	if err != nil{
 		log.Println(err)
 	}
@@ -260,7 +260,7 @@ func presupuesto(w http.ResponseWriter, r *http.Request)  {
 	if err != nil{
 		log.Println(err)
 	}
-	t.Execute(w, nil)
+	err = t.Execute(w, nil)
 	if err != nil{
 		log.Println(err)
 	}
@@ -270,7 +270,7 @@ func instituciones(w http.ResponseWriter, r *http.Request)  {
 	if err != nil{
 		log.Println(err)
 	}
-	t.Execute(w, nil)
+	err = t.Execute(w, nil)
 	if err != nil{
 		log.Println(err)
 	}
@@ -280,7 +280,7 @@ func principal(w http.ResponseWriter, r *http.Request)  {
 	if err != nil{
 		log.Println(err)
 	}
-	t.Execute(w, nil)
+	err = t.Execute(w, nil)
 	if err != nil{
 		log.Println(err)
 	}
@@ -290,7 +290,7 @@ func herramientas(w http.ResponseWriter, r *http.Request)  {
 	if err != nil{
 		log.Println(err)
 	}
-	t.Execute(w, nil)
+	err = t.Execute(w, nil)
 	if err != nil{
 		log.Println(err)
 	}
@@ -300,7 +300,7 @@ func login(w http.ResponseWriter, r *http.Request)  {
 	if err != nil{
 		log.Println(err)
 	}
-	t.Execute(w, nil)
+	err = t.Execute(w, nil)
 	if err != nil{
 		log.Println(err)
 	}
